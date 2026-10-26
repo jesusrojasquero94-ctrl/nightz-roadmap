@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nightz · Tablero B · Bahía de Día</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#EEF6F6">
+<link rel="icon" href="nightz-icono.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#EEF6F6}
+a{color:#0E7C88}a:hover{color:#0A5E67}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+<style>
+.pz{position:sticky;top:0;z-index:50;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:10px max(16px,env(safe-area-inset-left,0px));background:#0B0714;border-bottom:1px solid #2A2140;font:600 14px Manrope,system-ui,sans-serif;color:#EDE9F7}
+.pz b{font-weight:800}
+.pz div{display:flex;gap:4px;flex-wrap:wrap;flex:1}
+.pz a{color:#C9C1E0;text-decoration:none;padding:8px 12px;border-radius:99px;min-height:36px;display:inline-flex;align-items:center}
+.pz a.on{background:#FF2D87;color:#fff}
+.pz a:hover{color:#fff}
+.pz .bk{border:1px solid #2A2140}
+.pz a{white-space:nowrap}
+@media (max-width:700px){.pz{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.pz b{display:none}.pz div{flex-wrap:nowrap;flex:none}}
+</style>
+</head>
+<body>
+<nav class="pz" aria-label="Propuestas de tablero"><b>Nightz · Propuestas de tablero</b><div><a href="dashboard-a.html" class="">A · Sunset Deco</a><a href="dashboard-b.html" class="on">B · Bahía de Día</a><a href="dashboard-c.html" class="">C · Neón Marina</a></div><a href="index.html" class="bk">← Roadmap</a></nav>
+<div style="font-family: 'DM Sans', system-ui, sans-serif; background: #EEF6F6; color: #0B2A33; min-height: 1640px; font-variant-numeric: tabular-nums">
+
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D3E4E6">
+    <div style="max-width: 1360px; margin: 0 auto; padding: 14px 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+      <div style="display: flex; align-items: center; gap: 12px">
+        <span style="width: 36px; height: 36px; border-radius: 12px; background: #0E7C88; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font: 800 14px 'Bricolage Grotesque', sans-serif">NZ</span>
+        <div style="display: flex; flex-direction: column">
+          <b style="font: 700 17px 'Bricolage Grotesque', sans-serif">Ola Rooftop</b>
+          <span style="font-size: 12px; color: #4D6A73">Lechería · Panel del local</span>
+        </div>
+      </div>
+      <nav aria-label="Secciones del panel" style="display: flex; flex-wrap: wrap; gap: 4px">
+        <a href="#" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; background: #0B2A33; color: #FFFFFF; font-weight: 600; text-decoration: none">Tablero</a>
+        <a href="#pagos-b" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 999px; color: #0B2A33; font-weight: 600; text-decoration: none">Pagos <span style="background: #E4574B; color: #FFFFFF; border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 700">2</span></a>
+        <a href="#" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: #0B2A33; font-weight: 600; text-decoration: none">Eventos</a>
+        <a href="#" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: #0B2A33; font-weight: 600; text-decoration: none">Check-in</a>
+        <a href="#" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: #0B2A33; font-weight: 600; text-decoration: none">Cobro</a>
+        <a href="#" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 999px; color: #0B2A33; font-weight: 600; text-decoration: none">Liquidaciones</a>
+      </nav>
+    </div>
+  </header>
+
+  <div style="max-width: 1360px; margin: 0 auto; padding: 28px 40px 48px; display: flex; flex-direction: column; gap: 22px">
+
+    <section style="position: relative; overflow: hidden; border-radius: 28px; background: #0E7C88; color: #FFFFFF; min-height: 260px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px; padding: 32px 36px">
+      <svg viewBox="0 0 1280 260" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%">
+        <rect width="1280" height="260" fill="#0E7C88"></rect>
+        <circle cx="1010" cy="150" r="74" fill="#F2C879"></circle>
+        <path d="M760 190 C 820 150, 860 120, 905 128 C 940 134, 960 168, 1000 176 L 1280 176 L 1280 260 L 760 260 Z" fill="#0B5F68"></path>
+        <path d="M0 196 C 160 176, 320 214, 480 196 S 800 178, 960 196 S 1180 214, 1280 198 L 1280 260 L 0 260 Z" fill="#0A5E67"></path>
+        <path d="M0 222 C 160 206, 320 238, 480 222 S 800 206, 960 222 S 1180 238, 1280 224 L 1280 260 L 0 260 Z" fill="#08474E"></path>
+      </svg>
+      <div style="position: relative; display: flex; flex-direction: column; gap: 10px; min-width: 0">
+        <div style="display: flex; gap: 8px; flex-wrap: wrap">
+          <span style="padding: 6px 12px; border-radius: 999px; background: #FFFFFF; color: #0B2A33; font-size: 12px; font-weight: 700">Publicado</span>
+          <span style="padding: 6px 12px; border-radius: 999px; background: #08474E; color: #FFFFFF; font-size: 12px; font-weight: 700">Faltan 4 días</span>
+        </div>
+        <h1 style="margin: 0; font: 800 64px/0.95 'Bricolage Grotesque', sans-serif; letter-spacing: -0.03em; text-wrap: balance">Noche Blanca</h1>
+        <span style="font-size: 16px; color: #DDF3F1">Viernes 30 de octubre · 10:00 p. m. · Azotea con vista a la bahía</span>
+      </div>
+      <div style="position: relative; display: flex; gap: 8px; flex-wrap: wrap">
+        <button type="button" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 0; background: #FFFFFF; color: #0B2A33; font: 700 14px 'DM Sans', sans-serif; cursor: pointer">Editar evento</button>
+        <button type="button" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid #FFFFFF; background: transparent; color: #FFFFFF; font: 700 14px 'DM Sans', sans-serif; cursor: pointer">Abrir check-in</button>
+      </div>
+    </section>
+
+    <section aria-label="Indicadores" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px">
+      <div style="padding: 18px 20px; border-radius: 20px; background: #FFFFFF; display: flex; flex-direction: column; gap: 4px">
+        <span style="font-size: 13px; font-weight: 600; color: #4D6A73">Ventas confirmadas</span>
+        <span style="font: 700 34px 'Bricolage Grotesque', sans-serif; letter-spacing: -0.02em">$9.335</span>
+        <span style="font-size: 13px; color: #2F8F5B; font-weight: 600">+$1.140 desde ayer</span>
+      </div>
+      <div style="padding: 18px 20px; border-radius: 20px; background: #FFFFFF; display: flex; flex-direction: column; gap: 4px">
+        <span style="font-size: 13px; font-weight: 600; color: #4D6A73">Entradas vendidas</span>
+        <span style="font: 700 34px 'Bricolage Grotesque', sans-serif; letter-spacing: -0.02em">393 <span style="font-size: 18px; color: #4D6A73">/ 580</span></span>
+        <div style="height: 6px; border-radius: 999px; background: #D3E4E6; overflow: hidden"><div style="width: 67.8%; height: 100%; background: #0E7C88"></div></div>
+      </div>
+      <div style="padding: 18px 20px; border-radius: 20px; background: #FFFFFF; display: flex; flex-direction: column; gap: 4px">
+        <span style="font-size: 13px; font-weight: 600; color: #4D6A73">Mesas reservadas</span>
+        <span style="font: 700 34px 'Bricolage Grotesque', sans-serif; letter-spacing: -0.02em">9 <span style="font-size: 18px; color: #4D6A73">/ 14</span></span>
+        <span style="font-size: 13px; color: #4D6A73">$1.200 en depósitos</span>
+      </div>
+      <a href="#pagos-b" style="padding: 18px 20px; border-radius: 20px; background: #FFFFFF; border: 2px solid #E4574B; display: flex; flex-direction: column; gap: 4px; text-decoration: none; color: #0B2A33">
+        <span style="font-size: 13px; font-weight: 600; color: #4D6A73">Pagos por verificar</span>
+        <span style="font: 700 34px 'Bricolage Grotesque', sans-serif; letter-spacing: -0.02em; color: #E4574B">2</span>
+        <span style="font-size: 13px; color: #4D6A73">Bs 9.220,00 + $200 · revisar ›</span>
+      </a>
+      <div style="padding: 18px 20px; border-radius: 20px; background: #0B2A33; color: #FFFFFF; display: flex; flex-direction: column; gap: 4px">
+        <span style="font-size: 13px; font-weight: 600; color: #B9D3D8">Comisión Zona Viva</span>
+        <span style="font: 700 34px 'Bricolage Grotesque', sans-serif; letter-spacing: -0.02em">$770,80</span>
+        <span style="font-size: 13px; color: #B9D3D8">Se factura el lunes 2 nov</span>
+      </div>
+    </section>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-start">
+      <div style="flex: 3 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+
+        <section style="padding: 24px; border-radius: 24px; background: #FFFFFF; display: flex; flex-direction: column; gap: 10px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px">
+            <h2 style="margin: 0; font: 700 22px 'Bricolage Grotesque', sans-serif">Ventas por día</h2>
+            <span style="font-size: 13px; color: #4D6A73">Entradas vendidas cada día desde que abrió la preventa</span>
+          </div>
+          <svg viewBox="0 0 640 220" role="img" aria-label="Entradas vendidas por día: 19 oct 92, 20 oct 31, 21 oct 24, 22 oct 38, 23 oct 61, 24 oct 47, 25 oct 43, 26 oct 57" style="width: 100%; height: auto; display: block">
+            <g stroke="#D3E4E6" stroke-width="1"><line x1="44" x2="624" y1="180" y2="180"></line><line x1="44" x2="624" y1="126.7" y2="126.7"></line><line x1="44" x2="624" y1="73.3" y2="73.3"></line><line x1="44" x2="624" y1="20" y2="20"></line></g>
+            <g fill="#4D6A73" font-family="DM Mono, monospace" font-size="11">
+              <text x="36" y="184" text-anchor="end">0</text><text x="36" y="130.7" text-anchor="end">40</text><text x="36" y="77.3" text-anchor="end">80</text><text x="36" y="24" text-anchor="end">120</text>
+            </g>
+            <g fill="#0E7C88">
+              <rect x="58" y="57.3" width="48" height="122.7" rx="8"></rect>
+              <rect x="130" y="138.7" width="48" height="41.3" rx="8"></rect>
+              <rect x="202" y="148" width="48" height="32" rx="8"></rect>
+              <rect x="274" y="129.3" width="48" height="50.7" rx="8"></rect>
+              <rect x="346" y="98.7" width="48" height="81.3" rx="8"></rect>
+              <rect x="418" y="117.3" width="48" height="62.7" rx="8"></rect>
+              <rect x="490" y="122.7" width="48" height="57.3" rx="8"></rect>
+            </g>
+            <rect x="562" y="104" width="48" height="76" rx="8" fill="#E4574B"></rect>
+            <g fill="#0B2A33" font-family="DM Mono, monospace" font-size="11" text-anchor="middle">
+              <text x="82" y="50">92</text><text x="154" y="131">31</text><text x="226" y="140">24</text><text x="298" y="121">38</text><text x="370" y="91">61</text><text x="442" y="110">47</text><text x="514" y="115">43</text><text x="586" y="97" font-weight="700">57</text>
+            </g>
+            <g fill="#4D6A73" font-family="DM Sans, sans-serif" font-size="12" text-anchor="middle">
+              <text x="82" y="202">19 oct</text><text x="154" y="202">20</text><text x="226" y="202">21</text><text x="298" y="202">22</text><text x="370" y="202">23</text><text x="442" y="202">24</text><text x="514" y="202">25</text><text x="586" y="202" font-weight="700" fill="#0B2A33">Hoy</text>
+            </g>
+          </svg>
+        </section>
+
+        <section style="padding: 24px; border-radius: 24px; background: #FFFFFF; display: flex; flex-direction: column; gap: 4px">
+          <h2 style="margin: 0 0 10px; font: 700 22px 'Bricolage Grotesque', sans-serif">Entradas y mesas</h2>
+          <div style="overflow-x: auto">
+            <table style="width: 100%; border-collapse: collapse; font-size: 14px; min-width: 460px">
+              <thead><tr style="text-align: left; color: #4D6A73; font-size: 12px"><th style="padding: 8px 6px; font-weight: 600">Tipo</th><th style="padding: 8px 6px; font-weight: 600; text-align: right">Precio</th><th style="padding: 8px 6px; font-weight: 600; width: 40%">Vendidas</th><th style="padding: 8px 6px; font-weight: 600; text-align: right">Ingreso</th></tr></thead>
+              <tbody>
+                <tr style="border-top: 1px solid #D3E4E6"><td style="padding: 12px 6px"><b>Preventa</b> <span style="margin-left: 6px; padding: 2px 8px; border-radius: 999px; background: #FDE3E0; color: #B23A30; font-size: 11px; font-weight: 700">Agotada</span></td><td style="padding: 12px 6px; text-align: right">$15</td><td style="padding: 12px 6px"><div style="display: flex; align-items: center; gap: 8px"><div style="flex: 1; height: 8px; border-radius: 999px; background: #D3E4E6; overflow: hidden"><div style="width: 100%; height: 100%; background: #E4574B"></div></div><span style="font-family: 'DM Mono', monospace; font-size: 12px">200/200</span></div></td><td style="padding: 12px 6px; text-align: right">$3.000</td></tr>
+                <tr style="border-top: 1px solid #D3E4E6"><td style="padding: 12px 6px"><b>General</b></td><td style="padding: 12px 6px; text-align: right">$20</td><td style="padding: 12px 6px"><div style="display: flex; align-items: center; gap: 8px"><div style="flex: 1; height: 8px; border-radius: 999px; background: #D3E4E6; overflow: hidden"><div style="width: 47.3%; height: 100%; background: #0E7C88"></div></div><span style="font-family: 'DM Mono', monospace; font-size: 12px">142/300</span></div></td><td style="padding: 12px 6px; text-align: right">$2.840</td></tr>
+                <tr style="border-top: 1px solid #D3E4E6"><td style="padding: 12px 6px"><b>VIP</b></td><td style="padding: 12px 6px; text-align: right">$45</td><td style="padding: 12px 6px"><div style="display: flex; align-items: center; gap: 8px"><div style="flex: 1; height: 8px; border-radius: 999px; background: #D3E4E6; overflow: hidden"><div style="width: 63.8%; height: 100%; background: #0E7C88"></div></div><span style="font-family: 'DM Mono', monospace; font-size: 12px">51/80</span></div></td><td style="padding: 12px 6px; text-align: right">$2.295</td></tr>
+                <tr style="border-top: 1px solid #D3E4E6"><td style="padding: 12px 6px"><b>Mesa Terraza</b> <span style="color: #4D6A73">· 6 pers.</span></td><td style="padding: 12px 6px; text-align: right">$100</td><td style="padding: 12px 6px"><div style="display: flex; align-items: center; gap: 8px"><div style="flex: 1; height: 8px; border-radius: 999px; background: #D3E4E6; overflow: hidden"><div style="width: 60%; height: 100%; background: #2F8F5B"></div></div><span style="font-family: 'DM Mono', monospace; font-size: 12px">6/10</span></div></td><td style="padding: 12px 6px; text-align: right">$600</td></tr>
+                <tr style="border-top: 1px solid #D3E4E6"><td style="padding: 12px 6px"><b>Mesa Premium</b> <span style="color: #4D6A73">· 10 pers.</span></td><td style="padding: 12px 6px; text-align: right">$200</td><td style="padding: 12px 6px"><div style="display: flex; align-items: center; gap: 8px"><div style="flex: 1; height: 8px; border-radius: 999px; background: #D3E4E6; overflow: hidden"><div style="width: 75%; height: 100%; background: #2F8F5B"></div></div><span style="font-family: 'DM Mono', monospace; font-size: 12px">3/4</span></div></td><td style="padding: 12px 6px; text-align: right">$600</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <div style="flex: 2 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+        <section style="padding: 24px; border-radius: 24px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px">
+          <h2 style="margin: 0; font: 700 22px 'Bricolage Grotesque', sans-serif">Plano del rooftop</h2>
+          <div style="border-radius: 18px; background: #E3F1F1; padding: 14px; display: flex; flex-direction: column; gap: 12px">
+            <div style="height: 30px; border-radius: 10px; background: #0E7C88; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">Bahía de Pozuelos · baranda</div>
+            <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px">
+              <div style="height: 44px; border-radius: 50%; background: #2F8F5B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T1</div>
+              <div style="height: 44px; border-radius: 50%; background: #2F8F5B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T2</div>
+              <div style="height: 44px; border-radius: 50%; background: #2F8F5B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T3</div>
+              <div style="height: 44px; border-radius: 50%; background: #FFFFFF; border: 2px dashed #9DBFC4; color: #4D6A73; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T4</div>
+              <div style="height: 44px; border-radius: 50%; background: #2F8F5B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T5</div>
+              <div style="height: 44px; border-radius: 50%; background: #2F8F5B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T6</div>
+              <div style="height: 44px; border-radius: 50%; background: #FFFFFF; border: 2px dashed #9DBFC4; color: #4D6A73; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T7</div>
+              <div style="height: 44px; border-radius: 50%; background: #FFFFFF; border: 2px dashed #9DBFC4; color: #4D6A73; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T8</div>
+              <div style="height: 44px; border-radius: 50%; background: #FFFFFF; border: 2px dashed #9DBFC4; color: #4D6A73; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T9</div>
+              <div style="height: 44px; border-radius: 50%; background: #FFFFFF; border: 2px dashed #9DBFC4; color: #4D6A73; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">T10</div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+              <div style="height: 40px; border-radius: 12px; background: #E4574B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">P1</div>
+              <div style="height: 40px; border-radius: 12px; background: #E4574B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">P2</div>
+              <div style="height: 40px; border-radius: 12px; background: #E4574B; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">P3</div>
+              <div style="height: 40px; border-radius: 12px; background: #FFFFFF; border: 2px dashed #9DBFC4; color: #4D6A73; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700">P4</div>
+            </div>
+            <div style="height: 30px; border-radius: 10px; background: #0B2A33; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">Cabina DJ · barra</div>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: #4D6A73">
+            <span><b style="color: #2F8F5B">●</b> Terraza 6/10</span><span><b style="color: #E4574B">●</b> Premium 3/4</span><span>◌ Libre</span>
+          </div>
+        </section>
+
+        <section id="pagos-b" style="padding: 24px; border-radius: 24px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px">
+          <h2 style="margin: 0; font: 700 22px 'Bricolage Grotesque', sans-serif">Pagos por verificar</h2>
+          <div style="display: flex; flex-direction: column; gap: 10px; padding: 14px; border-radius: 16px; background: #EEF6F6">
+            <div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap"><b>Andrés P.</b><b style="font-family: 'DM Mono', monospace">Bs 9.220,00</b></div>
+            <span style="font-size: 13px; color: #4D6A73">Pago Móvil · Ref. 00481937 · 2× General · $40 a 230,50</span>
+            <div style="display: flex; gap: 8px"><button type="button" style="flex: 1; min-height: 44px; border-radius: 999px; border: 0; background: #0E7C88; color: #FFFFFF; font: 700 14px 'DM Sans', sans-serif; cursor: pointer">Confirmar</button><button type="button" style="flex: 1; min-height: 44px; border-radius: 999px; border: 1px solid #E4574B; background: #FFFFFF; color: #B23A30; font: 700 14px 'DM Sans', sans-serif; cursor: pointer">Rechazar</button></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px; padding: 14px; border-radius: 16px; background: #EEF6F6">
+            <div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap"><b>Valentina R.</b><b style="font-family: 'DM Mono', monospace">$200</b></div>
+            <span style="font-size: 13px; color: #4D6A73">Zelle · Ref. ZL-88213 · Halloween Rooftop · 2× VIP + Mesa</span>
+            <div style="display: flex; gap: 8px"><button type="button" style="flex: 1; min-height: 44px; border-radius: 999px; border: 0; background: #0E7C88; color: #FFFFFF; font: 700 14px 'DM Sans', sans-serif; cursor: pointer">Confirmar</button><button type="button" style="flex: 1; min-height: 44px; border-radius: 999px; border: 1px solid #E4574B; background: #FFFFFF; color: #B23A30; font: 700 14px 'DM Sans', sans-serif; cursor: pointer">Rechazar</button></div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <p style="margin: 0; font-size: 12px; color: #4D6A73">Propuesta B · Bahía de Día · datos de ejemplo · Desarrollado por Qiu Agency de Qiu Capital Group, C.A.</p>
+  </div>
+</div>
+</body>
+</html>
