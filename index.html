@@ -144,7 +144,8 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:30px 0 40px;colo
   <h2>Avances para revisar</h2>
   <p class="sub">Ábranlos en el navegador, en la computadora o en el teléfono. Todos los datos son de ejemplo.</p>
   <div class="g2">
-   <div class="card feat"><div class="tag">Fase 2 · 26 oct</div><h3>Preview navegable de la app</h3><p>La app del público, el panel del local y el admin de Zona Viva conectados en un solo flujo: compra, pago al local, verificación, QR, check-in en la puerta y liquidación. Incluye un recorrido guiado de 8 pasos.</p><a class="lk" href="preview.html">Abrir el preview</a></div>
+   <div class="card feat"><div class="tag">App v1.4 · 28 oct</div><h3>Nightz v1.4: lo pedido en el kick-off</h3><p>Registro con datos legales (+18), verificación de identidad con documento y selfie, ticket con nombre y documento, eventos públicos y privados, paneles de Portero y Promotor, valuación de seguridad del local, efectivo, Zelle y Binance, mesa en el plano y compartir en redes. Para probar: crear una cuenta, verificar identidad y entrar en Perfil &gt; Crear plan.</p><a class="lk" href="https://nightz-zona-viva.pages.dev/app/">Abrir la app v1.4</a></div>
+   <div class="card"><div class="tag">Fase 2 · 26 oct</div><h3>Preview navegable de la app</h3><p>La app del público, el panel del local y el admin de Zona Viva conectados en un solo flujo: compra, pago al local, verificación, QR, check-in en la puerta y liquidación. Incluye un recorrido guiado de 8 pasos.</p><a class="lk" href="preview.html">Abrir el preview</a></div>
    <div class="card"><div class="tag">Diseño · Miami × Lechería</div><h3>Propuestas de tablero del evento</h3><p>Tres estilos para el tablero del local. La propuesta C · Neón Marina ya está aplicada en el preview.</p><div style="display:flex;flex-wrap:wrap;gap:8px"><a class="lk" href="dashboard-c.html">C · Neón Marina</a><a class="lk gh" href="dashboard-a.html">A · Sunset Deco</a><a class="lk gh" href="dashboard-b.html">B · Bahía de Día</a></div></div>
   </div>
  </section>
@@ -211,23 +212,23 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:30px 0 40px;colo
 
 <script>
 /* ====== DATOS DEL PROYECTO — editar aquí para actualizar el portal ====== */
-const ACTUALIZADO = "26 de octubre de 2026";
+const ACTUALIZADO = "28 de octubre de 2026";
 const FASES = [
  {id:"s0", when:"Semana 0 · 21 – 23 oct", title:"Arranque", status:"done", pay:"Anticipo",
   text:"Proyecto oficialmente en marcha: anticipo recibido el 22 de octubre.",
   items:[["Reunión de definición y elección de la Ruta 2",true],["Acuerdo comercial cerrado",true],["Documento de bienvenida y nota de cobro enviados",true],["Grupo del proyecto con foto, descripción y carpeta de Drive",true],["Pago del anticipo y recibo RP-NZ-2026-001",true],["Correo del equipo recibido y acceso a la carpeta de Drive",true]],
   deliv:"Proyecto arrancado"},
  {id:"f1", when:"Fase 1 · 22 oct – 6 nov", title:"Base técnica, marca y diseño", status:"active",
-  text:"Adelantamos la base técnica desde el 22 de octubre para ganar tiempo mientras se cierra la marca. Los porcentajes de comisión son valores iniciales que confirmamos en el kick-off. El 26 de octubre entregamos el documento PP-NZ-2026-001 que explica la pasarela de pago para su asesor legal.",
-  items:[["Base del proyecto: app (Expo), panel y admin (Next.js) y Supabase",true],["Arquitectura técnica y modelo de datos documentados",true],["Comisiones configurables sin tocar código (8 % entrada, 10 % mesa)",true],["Documento de pasarela de pago para el abogado (PP-NZ-2026-001)",true],["Definición del modelo de cobro con su asesor legal",false],["Reunión de kick-off (semana del 26 oct)",false],["Acuerdo de confidencialidad firmado",false],["Identidad visual definitiva (Zona Viva prepara su isotipo)",false],["Ícono de la app y foto de perfil",false],["Diseño final de pantallas (UX/UI)",false],["Estimado de costos de servidores",false]],
+  text:"Adelantamos la base técnica desde el 22 de octubre para ganar tiempo mientras se cierra la marca. Los porcentajes de comisión son valores iniciales que confirmamos en el kick-off. El 26 de octubre entregamos el documento PP-NZ-2026-001 que explica la pasarela de pago para su asesor legal. El 27 de octubre hicimos el kick-off y recibimos el isotipo; el 28 entregamos la v1.4 con todo lo pedido en esa reunión, incluido en la Ruta 2.",
+  items:[["Base del proyecto: app (Expo), panel y admin (Next.js) y Supabase",true],["Arquitectura técnica y modelo de datos documentados",true],["Comisiones configurables sin tocar código (8 % entrada, 10 % mesa)",true],["Documento de pasarela de pago para el abogado (PP-NZ-2026-001)",true],["Definición del modelo de cobro con su asesor legal",false],["Reunión de kick-off (27 oct)",true],["Acuerdo de confidencialidad firmado",false],["Isotipo de Zona Viva recibido (26 oct)",true],["Identidad visual definitiva aprobada",false],["Ícono de la app y foto de perfil",false],["Diseño final de pantallas (UX/UI)",false],["Estimado de costos de servidores",false]],
   deliv:"Marca aprobada y prototipo navegable final"},
  {id:"f2", when:"Fase 2 · 9 – 27 nov", title:"Desarrollo del núcleo", status:"next",
   text:"Construimos la app del público, el backend y el panel de los locales. Adelantamos buena parte de esta fase: ya está en el repositorio y falta conectarla a los servidores de Zona Viva y vestirla con la marca final.",
-  items:[["Base de datos con seguridad, compra de entradas y check-in con pruebas automáticas",true],["Inicio de sesión sin contraseña (código por correo)",true],["App del público: explorar por ciudad y fichas de evento",true],["Checkout con datos del local, referencia y comprobante",true],["Entradas con código QR",true],["Panel del local: tablero, pagos por verificar, eventos y precios, check-in",true],["Preview navegable de la Fase 2 y tablero con diseño Miami × Lechería",true],["Conexión a los servidores de Zona Viva (Supabase y EAS)",false],["Acceso de Zona Viva al repositorio de código",false]],
+  items:[["Base de datos con seguridad, compra de entradas y check-in con pruebas automáticas",true],["Inicio de sesión sin contraseña (código por correo)",true],["App del público: explorar por ciudad y fichas de evento",true],["Checkout con datos del local, referencia y comprobante",true],["Entradas con código QR",true],["Panel del local: tablero, pagos por verificar, eventos y precios, check-in",true],["Preview navegable de la Fase 2 y tablero con diseño Miami × Lechería",true],["Conexión a los servidores de Zona Viva (Supabase y EAS)",false],["Acceso de Zona Viva al repositorio de código",false],["v1.4: registro legal +18, verificación de identidad (documento y selfie) y ticket con nombre y documento",true],["v1.4: eventos públicos y privados con aprobación de invitados",true],["v1.4: paneles de Portero y Promotor",true],["v1.4: valuación de seguridad del local y verificación de organizadores",true],["v1.4: efectivo en taquilla, Zelle, Binance, métodos guardados y mesa en el plano",true],["Verificación de identidad real con Didit (cuenta de Zona Viva)",false],["Pasar lo nuevo de la v1.4 a la app nativa y al servidor",false],["Entrada en Apple Wallet",false]],
   deliv:"Versión de prueba instalable en sus teléfonos"},
  {id:"f3", when:"Fase 3 · 30 nov – 11 dic", title:"Admin, push y monetización", status:"next",
   text:"Sumamos la administración de Zona Viva y todo lo que genera ingresos.",
-  items:[["Admin Zona Viva: locales, tasa BCV, reglas y liquidaciones",true],["Notificaciones push segmentadas (base lista)",true],["Destacados y suscripciones",false],["Check-in en puerta con cámara",true],["Suspensión automática por comisión vencida",false],["Pruebas con locales piloto",false]],
+  items:[["Admin Zona Viva: locales, tasa BCV, reglas y liquidaciones",true],["Notificaciones push segmentadas (base lista)",true],["Destacados y suscripciones",false],["Check-in en puerta con cámara",true],["Suspensión automática por comisión vencida",true],["Pruebas con locales piloto",false]],
   deliv:"Versión candidata para aprobación"},
  {id:"f4", when:"Fase 4 · 14 – 18 dic", title:"Entrega y publicación", status:"next", pay:"Saldo",
   text:"Aprobación final, publicación en las tiendas y entrega de todo el material.",
@@ -240,9 +241,12 @@ const FASES = [
 ];
 const PENDIENTES = [
  ["Razón social y RIF de la empresa titular","Para completar los documentos y la cesión de derechos."],
- ["Isotipo y confirmación del registro del nombre","Mientras tanto desarrollamos con colores neutros y lo aplicamos al recibirlo."],
- ["Día y hora para el kick-off","La semana del 26 de octubre; ahí les mostramos el primer avance."],
- ["Firmar el acuerdo de confidencialidad","Pendiente de firma por parte de Zona Viva."]
+ ["Firmar el acuerdo de confidencialidad","Pendiente de firma por parte de Zona Viva."],
+ ["Cuenta de Didit a nombre de Zona Viva","Es el proveedor de verificación de identidad (el mismo que usa Kult)."],
+ ["Cuentas de Apple Developer y Google Play","Apple también se usa para la entrada en Apple Wallet. Les enviamos la guía paso a paso."],
+ ["Cuenta de Expo (EAS) de Zona Viva","Para generar la app de prueba en sus teléfonos."],
+ ["Qué cambiar en el panel del dueño del local","Cuéntennos qué quieren mejorar en la vista de la discoteca."],
+ ["Confirmar el registro del nombre y aprobar la identidad visual","Ya tenemos el isotipo; falta la aprobación final de logo, colores y tipografías."]
 ];
 const PAGOS = [
  {t:"Anticipo",d:"Recibido el 22 de octubre · recibo RP-NZ-2026-001",s:"ok",l:"Pagado"},
